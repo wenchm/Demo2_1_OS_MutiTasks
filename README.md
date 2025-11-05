@@ -27,3 +27,19 @@ branch 'master' set up to track 'origin/master'.
 $ git remote add origin https://github.com/wenchm/Demo2_1_OS_MutiTasks.git
 $ git branch -M main
 $ git push -u origin main
+
+# add all files and dirs
+$ git status
+$ git add .
+$ git commit -m "origin"
+$ git push -u origin master
+Enumerating objects: 333, done.
+Counting objects: 100% (333/333), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (310/310), done.
+Writing objects: 100% (331/331), 5.46 MiB | 1.94 MiB/s, done.
+Total 331 (delta 98), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (98/98), done.
+To https://github.com/wenchm/Demo2_1_OS_MutiTasks.git
+   f19d0b8..c0c1bd1  master -> master
+branch 'master' set up to track 'origin/master'.
